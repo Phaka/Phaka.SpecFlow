@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>This assembly contains various utility functions to
+
+* Transform a string into Uri
+* Transform a string into an IP Address
+* Transform a string to a date range</Description>
+    <Copyright>Copyright (c) 2017 Werner Strydom</Copyright>
+    <PackageLicenseUrl>https://github.com/Phaka/Phaka.SpecFlow/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Phaka/Phaka.SpecFlow</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Phaka/Phaka.SpecFlow</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>SpecFlow</PackageTags>
+    <Authors>Werner Strydom</Authors>
+    <Company>Werner Strydom</Company>
+    <Product>Phaka</Product>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SpecFlow" Version="2.1.0" />
+  </ItemGroup>
+</Project>
